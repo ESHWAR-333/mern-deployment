@@ -37,3 +37,21 @@ docker build -t mern-backend .
 ## Using Docker Compose
 
 `docker compose up -d`
+
+
+## You can use the Docker pre built images
+
+Pull the Images from public registry docker hub
+
+### frontend
+
+```sh
+docker pull eshwar333/mern-frontend
+```
+
+### backend
+
+```sh
+docker pull eshwar333/mern-backend
+```
+
